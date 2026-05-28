@@ -361,7 +361,7 @@ function Footer() {
           <span className="font-display font-semibold text-foreground">Neura</span>
           <span>· built for serious AI engineers</span>
         </div>
-        <span className="font-mono">progress saved locally · v1</span>
+        <span className="font-mono">Created by Manikandan · progress saved locally · v1</span>
       </div>
     </footer>
   );
