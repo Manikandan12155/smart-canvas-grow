@@ -149,6 +149,7 @@ function Hero({ done, pct, completedLevels }: { done: number; pct: number; compl
         <p className="mt-5 max-w-2xl text-base sm:text-lg text-muted-foreground leading-relaxed">
           A guided, level-by-level journey across Python, classical ML, deep learning, LLMs, RAG, agents, deployment and expert systems. Track every topic. Build the projects. Become undeniable.
         </p>
+        <p className="mt-2 text-xs text-muted-foreground font-mono tracking-wider uppercase">Created by Manikandan</p>
 
         <div className="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-2xl">
           <Stat label="Total topics" value={TOTAL_TOPICS} icon={<Target className="h-4 w-4" />} />
