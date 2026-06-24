@@ -8,6 +8,7 @@ export const getRouter = () => {
   const router = createRouter({
     routeTree,
     context: { queryClient },
+    basepath: '/smart-canvas-grow/',
     scrollRestoration: true,
     defaultPreloadStaleTime: 0,
   });
