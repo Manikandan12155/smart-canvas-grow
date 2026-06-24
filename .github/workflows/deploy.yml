@@ -45,11 +45,11 @@ jobs:
       - name: Build project
         run: npm run build
 
-      # 4. Upload Vite's output folder (dist) instead of Jekyll's (_site)
+      # 4. Upload the generated static output from TanStack Start instead of Jekyll's (_site)
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./.output/public
 
   # Deployment job
   deploy:
